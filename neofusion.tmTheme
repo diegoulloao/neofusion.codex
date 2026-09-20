@@ -15,21 +15,13 @@
         <string>#E2D9C5</string>
         <key>background</key>
         <string>#06101E</string>
-        <key>caret</key>
-        <string>#66DEF9</string>
-        <key>selection</key>
-        <string>#08435E</string>
-        <key>lineHighlight</key>
-        <string>#031B26</string>
-        <key>invisibles</key>
-        <string>#22536F</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Comments</string>
       <key>scope</key>
-      <string>comment, punctuation.definition.comment</string>
+      <string>comment</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -40,7 +32,7 @@
       <key>name</key>
       <string>Strings</string>
       <key>scope</key>
-      <string>string, constant.other.symbol</string>
+      <string>string</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -49,20 +41,9 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Numbers and constants</string>
+      <string>Keywords</string>
       <key>scope</key>
-      <string>constant.numeric, constant.language, constant.character</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#66DEF9</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Keywords and storage</string>
-      <key>scope</key>
-      <string>keyword, storage, storage.type, storage.modifier</string>
+      <string>keyword</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -73,7 +54,7 @@
       <key>name</key>
       <string>Functions</string>
       <key>scope</key>
-      <string>entity.name.function, support.function, meta.function-call</string>
+      <string>entity.name.function</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -82,79 +63,20 @@
     </dict>
     <dict>
       <key>name</key>
-      <string>Types and classes</string>
+      <string>Types</string>
       <key>scope</key>
-      <string>entity.name.type, entity.name.class, support.type, support.class</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#FD5E3A</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Variables and parameters</string>
-      <key>scope</key>
-      <string>variable, variable.parameter, meta.definition.variable</string>
+      <string>entity.name.type</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
         <string>#66DEF9</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Operators and punctuation</string>
-      <key>scope</key>
-      <string>keyword.operator, punctuation, meta.brace</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#FD5E3A</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Markup headings</string>
-      <key>scope</key>
-      <string>markup.heading, entity.name.section</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#66DEF9</string>
-        <key>fontStyle</key>
-        <string>bold</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Markup emphasis</string>
-      <key>scope</key>
-      <string>markup.bold, markup.italic</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#66DEF9</string>
-        <key>fontStyle</key>
-        <string>bold</string>
-      </dict>
-    </dict>
-    <dict>
-      <key>name</key>
-      <string>Links</string>
-      <key>scope</key>
-      <string>markup.underline.link, string.other.link</string>
-      <key>settings</key>
-      <dict>
-        <key>foreground</key>
-        <string>#35B5FF</string>
       </dict>
     </dict>
     <dict>
       <key>name</key>
       <string>Diff added</string>
       <key>scope</key>
-      <string>markup.inserted, diff.inserted</string>
+      <string>markup.inserted</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
@@ -167,7 +89,7 @@
       <key>name</key>
       <string>Diff removed</string>
       <key>scope</key>
-      <string>markup.deleted, diff.deleted</string>
+      <string>markup.deleted</string>
       <key>settings</key>
       <dict>
         <key>foreground</key>
